@@ -174,7 +174,6 @@ ul {
         @include basic_inner();
         padding: 140px 0 94px;
     }
-    
     .media {
         position: relative;
         &__contents {
@@ -190,14 +189,13 @@ ul {
                 bottom: -27px;
             }
         }
+        &__img {
+            position: absolute;
+            right: -34%;
+            bottom: -100px;
+            z-index: 1;
+        }
         
-        
-    }
-    &__img {
-        position: absolute;
-        right: -34%;
-        bottom: 0px;
-        z-index: 1;
     }
     &:after {
         content: "";

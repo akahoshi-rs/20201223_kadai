@@ -197,10 +197,10 @@ ul {
   bottom: -27px;
 }
 
-.template__img {
+.template .media__img {
   position: absolute;
   right: -34%;
-  bottom: 0px;
+  bottom: -100px;
   z-index: 1;
 }
 
